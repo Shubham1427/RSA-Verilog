@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Downloads/counter.v" \
+"../../../../../Downloads/prime_gen.v" \
+"../../../../RSA.srcs/sources_1/new/rsa_enc.v" \
+"../../../../RSA.srcs/sources_1/new/rsa_dec.v" \
+"../../../../RSA.srcs/sources_1/new/rsa_fpga_dec.v" \
+"../../../../RSA.srcs/sources_1/new/rsa_fpga_enc.v" \
+"../../../../RSA.srcs/sim_1/new/tb.v" \
+"../../../../RSA.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

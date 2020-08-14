@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1574374032">
+  <File Type="BITSTR-BMM" Name="rsa_fpga_dec_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="rsa_fpga_dec_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="rsa_fpga_dec_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="rsa_fpga_dec_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="rsa_fpga_dec.tcl"/>
+  <File Type="OPT-TIMING" Name="rsa_fpga_dec_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="rsa_fpga_dec_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="rsa_fpga_dec_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="rsa_fpga_dec_reports.tcl"/>
+  <File Type="OPT-DRC" Name="rsa_fpga_dec_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="rsa_fpga_dec.hwdef"/>
+  <File Type="PWROPT-DCP" Name="rsa_fpga_dec_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="rsa_fpga_dec_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="rsa_fpga_dec_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="rsa_fpga_dec_placed.dcp"/>
+  <File Type="PLACE-IO" Name="rsa_fpga_dec_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="rsa_fpga_dec_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="rsa_fpga_dec_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="rsa_fpga_dec_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="rsa_fpga_dec_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="rsa_fpga_dec_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="rsa_fpga_dec_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="rsa_fpga_dec_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="rsa_fpga_dec_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="rsa_fpga_dec.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="rsa_fpga_dec_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="rsa_fpga_dec_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="rsa_fpga_dec_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="rsa_fpga_dec.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="rsa_fpga_dec_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="rsa_fpga_dec_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="rsa_fpga_dec_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="rsa_fpga_dec_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="rsa_fpga_dec_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="rsa_fpga_dec_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="rsa_fpga_dec_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="rsa_fpga_dec.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="rsa_fpga_dec_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="rsa_fpga_dec_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="rsa_fpga_dec_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="rsa_fpga_dec_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="rsa_fpga_dec_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="rsa_fpga_dec_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="rsa_fpga_dec_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="rsa_fpga_dec_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="rsa_fpga_dec_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="rsa_fpga_dec_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="rsa_fpga_dec_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="rsa_fpga_dec_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="rsa_fpga_dec_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="rsa_fpga_dec_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="rsa_fpga_dec_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="rsa_fpga_dec_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="rsa_fpga_dec_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="rsa_fpga_dec_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="rsa_fpga_dec_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="rsa_fpga_dec_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="rsa_fpga_dec_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="rsa_fpga_dec.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="rsa_fpga_dec_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="rsa_fpga_dec.rbt"/>
+  <File Type="BITSTR-NKY" Name="rsa_fpga_dec.nky"/>
+  <File Type="PDI-FILE" Name="rsa_fpga_dec.pdi"/>
+  <File Type="RCFI_FILE" Name="rsa_fpga_dec.rcfi"/>
+  <File Type="CFI_FILE" Name="rsa_fpga_dec.cfi"/>
+  <File Type="RNPI_FILE" Name="rsa_fpga_dec.rnpi"/>
+  <File Type="NPI_FILE" Name="rsa_fpga_dec.npi"/>
+  <File Type="RBD_FILE" Name="rsa_fpga_dec.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="rsa_fpga_dec.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="rsa_fpga_dec.sysdef"/>
+  <File Type="BG-BGN" Name="rsa_fpga_dec.bgn"/>
+  <File Type="BG-DRC" Name="rsa_fpga_dec.drc"/>
+  <File Type="RDI-RDI" Name="rsa_fpga_dec.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Downloads/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Downloads/prime_gen.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rsa_enc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rsa_dec.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rsa_fpga_dec.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rsa_fpga_enc.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="rsa_fpga_dec"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Downloads/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
